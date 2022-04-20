@@ -1,10 +1,13 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import ItemListContainer from './components/ItemListContainer'
 
 function App() {
+
   return (
     <>
-      <h1>Hola mundo con React!</h1>
-      <h2>Renzo Caffesse</h2>
+      <Navbar></Navbar>
+      <ItemListContainer greeting='Hola Gabriel! Y hasta el próximo Sábado!'></ItemListContainer>
     </>
   );
 }
