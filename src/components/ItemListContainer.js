@@ -1,6 +1,10 @@
-const ItemListContainer = ({greeting}) => {
+import ItemList from './ItemList'
+
+const ItemListContainer = () => {
     return (
-      <div className="text-4xl flex justify-center items-center min-h-screen">{greeting}</div>
+      <div className="w-full text-4xl flex min-h-screen">
+        <ItemList />
+      </div>
     )
 }
 
