@@ -1,0 +1,17 @@
+export const products = [
+    {id: 1, brand: 'Apple', model: 'MacBook Pro', specs: '16gb Ssd1tb Rtx3070', price: 125000, category: 'notebooks'},
+    {id: 2, brand: 'HP', model: 'Spectre x360', specs: '16gb Ssd1tb Rtx3070', price: 125000, category: 'notebooks'},
+    {id: 3, brand: 'Lenovo', model: 'Legion', specs: '16gb Ssd1tb Rtx3070', price: 125000, category: 'notebooks'},
+    {id: 4, brand: 'Dell', model: 'Latitude 3520', specs: '16gb Ssd1tb Rtx3070', price: 125000, category: 'notebooks'},
+    {id: 5, brand: 'MSI', model: 'Gp66 Leopard', specs: '16gb Ssd1tb Rtx3070', price: 125000, category: 'notebooks'},
+    {id: 6, brand: 'Genius', model: 'SP-HF500A', specs: '14 W, MP3, 82 dB', price: 50000, category: 'parlantes'},
+    {id: 7, brand: 'Genius', model: 'SP-HF500A', specs: '14 W, MP3, 82 dB', price: 50000, category: 'parlantes'},
+    {id: 8, brand: 'Genius', model: 'SP-HF500A', specs: '14 W, MP3, 82 dB', price: 50000, category: 'parlantes'},
+    {id: 9, brand: 'Genius', model: 'SP-HF500A', specs: '14 W, MP3, 82 dB', price: 50000, category: 'parlantes'},
+    {id: 10, brand: 'Genius', model: 'SP-HF500A', specs: '14 W, MP3, 82 dB', price: 50000, category: 'parlantes'},
+    {id: 11, brand: 'Apple', model: 'iPhone 13 Pro', specs: '16gb Ssd1tb Rtx3070', price: 95000, category: 'telefonos'},
+    {id: 12, brand: 'Xiaomi', model: 'Redmi Note 7', specs: '16gb Ssd1tb Rtx3070', price: 95000, category: 'telefonos'},
+    {id: 13, brand: 'Samsung', model: 'Galaxy Note', specs: '16gb Ssd1tb Rtx3070', price: 95000, category: 'telefonos'},
+    {id: 14, brand: 'Samsung', model: 'S7', specs: '16gb Ssd1tb Rtx3070', price: 95000, category: 'telefonos'},
+    {id: 15, brand: 'Motorola', model: 'G3', specs: '16gb Ssd1tb Rtx3070', price: 95000, category: 'telefonos'},
+]
