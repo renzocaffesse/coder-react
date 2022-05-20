@@ -5,10 +5,10 @@ export const CartContext = createContext({})
 export const useCartContext = () => useContext(CartContext);
 
 const CartProvider = ({ defaultValue=[], children }) => {
-  const [cart, setCart] = useState({defaultValue})
+  const [cart, setCart] = useState(defaultValue)
 
   const addItem = (item, quantity) => {
-    if (isInCart) {
+    if (isInCart(item.id)) {
       const updatedCart = cart.map((cartItem) => {
         if (cartItem.id === item.id) {
           return { ...cartItem, quantity: cartItem.quantity + quantity}

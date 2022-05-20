@@ -17,9 +17,9 @@ const ItemCount = ({ initial, stock, onAdd }) => {
   return (
     <div className="items-center">
       <div className="py-4 flex justify-center items-center">
-        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" onClick={handleSubstract}>-</button>
+        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-5 rounded-l" onClick={handleSubstract}>-</button>
         <span className="mx-8">{count}</span>
-        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r" onClick={handleAdd}>+</button>
+        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-5 rounded-r" onClick={handleAdd}>+</button>
       </div>
       <div className="flex justify-center">
         <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded" onClick={() => onAdd(count)}>Agregar al carrito</button>
